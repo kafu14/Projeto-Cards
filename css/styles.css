@@ -31,6 +31,7 @@ html {
   height: 100px;
   border-radius: 50%;
   margin-right: 10px;
+  border: 2px solid #ccc;
 }
 
 .user-info {
@@ -53,7 +54,7 @@ html {
   gap: 10px;
 }
 
-.linksocias .social-icon {
+.linksocias .social-icone {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,23 +65,20 @@ html {
   background-color: #007bff;
   text-decoration: none;
   font-size: 20px;
+  transition: 0.4s;
 }
-linksocias .social-icon:hover {
-  color: #0056b3;
+.linksocias .social-icone:hover {
+  opacity: 0.7;
 }
-
-.linksocias .facebook {
-  color: #3b5998;
+.linksocias .social-icone.facebook {
+  background-color: #3b5998;
 }
-
-.linksocias .instagram {
-  padding: 0px;
-  color: #e1306c;
+.linksocias .social-icone.instagram {
+  background-color: #e1306c;
 }
-
-.linksocias .linkedin {
-  color: #0077b5;
+.linksocias .social-icone.linkedin {
+  background-color: #0077b5;
 }
-.linksocias .github{
-  color: #333;
+.linksocias .social-icone.github {
+  background-color: #333;
 }
